@@ -19,6 +19,8 @@ app.post('/products', (req, res) => {
     res.status(201).json({ message: 'Product created successfully', product });
 });
 
+
+
 // Read (GET) all products
 app.get('/products', (req, res) => {
     res.json(products);
